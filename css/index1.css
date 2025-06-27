@@ -1,3 +1,22 @@
+body {
+  background-image: url('file:///C:/Users/iniad/Documents/cs_exercise/%E3%83%91%E3%83%A9%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%EF%BC%92.png');
+  background-size: cover;           
+  background-position: center;     
+  background-repeat: no-repeat;    
+}
+
 h1 {
-    color: #0cf;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    color: #fff
+    text-align: center;
+}
+
+p{
+    color:
+    text-align: center;
 }
