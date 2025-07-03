@@ -1,3 +1,7 @@
 h1{
     color:rgb(44, 104, 141);font-family: 'Rampart One', sans-serif;
 }
+
+li.place{
+    font-weight : bold; font-size : 22
+}
