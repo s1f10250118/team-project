@@ -8,6 +8,45 @@ body {
 h1 {
     color: #ffffff;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
+h2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 25
+}
+
+p{
+  color: #ffffff;
+  text-align: center;
+}
+
+h3{
+  color: #fff;
+  text-align: center;
+  font-size: 25
+}
+
+h4{
+  color: #fff;
+  text-align: center;
+  font-size: 25
+}
+
+h5{
+  color: #fff;
+  text-align: center;
+  font-size: 25
+}
+
+li{
+  color: #fff;
+  text-align: center;
+}
+
+.mokuzi {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0; 
+}
