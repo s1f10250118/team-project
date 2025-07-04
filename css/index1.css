@@ -1,5 +1,5 @@
 body {
-  background-image: url('./画像/パラグライダー２.png');
+  background-image: url('../画像/パラグライダー２.png');
   background-size: cover;           
   background-position: center;     
   background-repeat: no-repeat;    
@@ -11,10 +11,3 @@ h1 {
     font-size: 2rem;
 }
 
-h2{
-    color: #fff
-}
-
-p{
-    color:
-}
