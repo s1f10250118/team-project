@@ -14,7 +14,7 @@ h1 {
 h2{
   color: #ffffff;
   text-align: center;
-
+  font-size: 25
 }
 
 p{
@@ -25,19 +25,28 @@ p{
 h3{
   color: #fff;
   text-align: center;
+  font-size: 25
 }
 
 h4{
   color: #fff;
   text-align: center;
+  font-size: 25
 }
 
 h5{
   color: #fff;
   text-align: center;
+  font-size: 25
 }
 
-ul{
+li{
   color: #fff;
-  
+  text-align: center;
+}
+
+.mokuzi {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0; 
 }
