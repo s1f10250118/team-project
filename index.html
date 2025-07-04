@@ -2,18 +2,54 @@
 <html lang="ja">
     <head>
        <meta charset="UTF-8">
+       <mata name="viewport" content="width=device-width, initial-scale=1.0" />
        <title>演習13</title>
        <link rel="stylesheet" type="text/css" href="css/index.css">
+       <style>
+        body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('background-image.jpg') center/cover no-repeat;
+      color: rgb(6, 241, 69);
+    }
+    header {
+      background: rgba(247, 251, 2, 0.6);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #5108f9;
+        transition: color 0.3s ease, background-color 0.3s ease;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    nav a:hover {
+        background-color: rgb(238, 6, 6); /* 背景を少し明るくする */
+        color: #f0f008; /* 文字色を淡い黄色に変えるなど */
+    }
+       </style>     
+        
     </head>
 
     <body>
-        <h1>旅先でしたいこと</h1>
-
-        <h2>目次</h2>
-        <ul><li><a href="index1.html">パラグライダー</a></li>
-            <li><a href="index2.html">ラフティング</a></li>
-            <li><a href="index3.html">ドライブ</a></li>
-        </ul>
+        <header>
+            <div><strong>旅先でしたいこと</strong></div>
+        <nav>
+        <a href="index1.html">パラグライダー</a>
+        <a href="index2.html">ラフティング</a>
+        <a href="index3.html">ドライブ</a>
+        </nav>
     </body>
 
 
